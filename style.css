@@ -15,12 +15,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+html {
+  scrollbar-gutter: stable;
+}
 body {
   height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin: 0px 8px;
 }
 
 .list {
@@ -29,6 +31,7 @@ body {
   max-width: 500px;
   width: 100%;
   gap: 10px 0;
+  margin-block: 16px;
 }
 
 .list__item {
